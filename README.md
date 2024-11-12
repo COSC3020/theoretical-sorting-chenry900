@@ -16,3 +16,9 @@ Also give a theoretical argument for why X could or could not be correct, based
 on the complexity of the general sorting problem we covered in class.
 
 Add your answers to this markdown file.
+
+I would check this claim by using quicksort to compare several different arrays that
+are of large size and use the information given by both sorting algorithums to determine 
+if the sorting algorithum is as fast as the researcher says. If the sorting is $0(n)$ then 
+at large lists it should be as fast as the list is long and by using quicksort whos data is 
+known to be $0(nlogn)$ we can get a fairly accurate comparaison between the two.
